@@ -94,9 +94,8 @@ function UserMenu() {
             <Typography textAlign="center">Opportunities</Typography>
           </MenuItem>
         </NavLink>
-        <Link
-          onClick={() => dispatch(userActions.logout())}
-          className={classes.link}
+        <Link to=
+          "onClick={() => dispatch(userActions.logout())} className={classes.link}"
         >
           <MenuItem
             /*onClick={handleCloseUserMenu}*/
